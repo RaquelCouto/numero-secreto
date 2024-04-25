@@ -1,6 +1,6 @@
 from imposto import imposto
-for i in range(0, 10):
-    print(i)
+for i in range(0, 20):
+    print("o quadrado de {} é: {}".format(i, i*i))
 
 
 saldoConta = 5800
