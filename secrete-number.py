@@ -5,6 +5,6 @@ imposto = 0
 saldoConta = 5800
 
 if (saldoConta > 3000):
-    imposto = (saldoConta*(10/100))
+    imposto = (saldoConta*(15/100))
 
 print("O valor do seu imposto corresponde a: {}".format(imposto))
