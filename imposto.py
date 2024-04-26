@@ -27,6 +27,7 @@ def ioF(saldo, aliquota):
     return ioF
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 def impostoIpva(valorCarro, aliquota):
     impostoIpva = valorCarro * aliquota
     return impostoIpva
@@ -35,8 +36,22 @@ def descontoIpvaParcelaUnica(impostoIpva, aliquotaDesconto):
     descontoIpva = impostoIpva * aliquotaDesconto
     return descontoIpva
 =======
+=======
+>>>>>>> 57a9a6e (Rebase of the changes)
 
 def impostoDeRenda(baseCalculo, aliquota):
     impostoRenda = baseCalculo * aliquota
     return impostoRenda
+<<<<<<< HEAD
 >>>>>>> e58bc45 (Adding a function to calculate imposto de renda)
+=======
+=======
+def impostoIpva(valorCarro, aliquota):
+    impostoIpva = valorCarro * aliquota
+    return impostoIpva
+
+def descontoIpvaParcelaUnica(impostoIpva, aliquotaDesconto):
+    descontoIpva = impostoIpva * aliquotaDesconto
+    return descontoIpva
+>>>>>>> e88963d (Function to calculate the Ipva taxe)
+>>>>>>> 57a9a6e (Rebase of the changes)
