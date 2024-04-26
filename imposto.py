@@ -25,3 +25,11 @@ def compraShein(valorCompra):
 def ioF(saldo, aliquota):
     ioF = (saldo * (aliquota/100)) + saldo
     return ioF
+
+def impostoIpva(valorCarro, aliquota):
+    impostoIpva = valorCarro * aliquota
+    return impostoIpva
+
+def descontoIpvaParcelaUnica(impostoIpva, aliquotaDesconto):
+    descontoIpva = impostoIpva * aliquotaDesconto
+    return descontoIpva
