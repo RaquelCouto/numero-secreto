@@ -1,16 +1,21 @@
 from imposto import *
+
+#variables
+valorCompra = 4000
+valorCompraImportada = 20000
+saldoConta = 5800
+palavra = 'Raquel'
+#calling functions
 for i in range(0, 20):
     print("o quadrado de {} é: {}".format(i, i*i))
 
-
-saldoConta = 5800
+for letra in palavra:
+    print(letra)
 
 if (saldoConta > 3000):
     taxes = imposto(saldoConta, 15)
     print("O valor do seu imposto corresponde a: {}".format(taxes))
 
-valorCompra = 4000
 print('O valor da sua comprinha da Shein é {}'.format(compraShein(valorCompra)))
 
-valorCompraImportada = 20000
 print('O valor da sua compra importada com ioF vai ser de: {}'.format(ioF(valorCompraImportada, 4.38)))
