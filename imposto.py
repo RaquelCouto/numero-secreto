@@ -31,7 +31,7 @@ def descontoIpvaParcelaUnica(impostoIpva, aliquotaDesconto):
     return descontoIpva
 
 def impostoDeRenda(baseCalculo, aliquota):
-    impostoRenda = baseCalculo * aliquota
+    impostoRenda = baseCalculo * (aliquota/100)
     return impostoRenda
 
 def impostoIpva(valorCarro, aliquota):
