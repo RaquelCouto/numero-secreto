@@ -11,3 +11,6 @@ if (saldoConta > 3000):
 
 valorCompra = 4000
 print('O valor da sua comprinha da Shein é {}'.format(compraShein(valorCompra)))
+
+valorCompraImportada = 20000
+print('O valor da sua compra importada com ioF vai ser de: {}'.format(ioF(valorCompraImportada, 4.38)))

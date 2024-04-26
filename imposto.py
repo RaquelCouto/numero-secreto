@@ -2,7 +2,6 @@ def imposto(salario, taxa):
     imposto = salario*(taxa/100)
     return imposto
 
-
 def deducaoImposto(salario):
     if (salario < 3000):
         reducaoImposto = salario*(3/100)
@@ -22,3 +21,7 @@ def impostoShein(valorCompra):
 def compraShein(valorCompra):
     totalCompra = impostoShein(valorCompra) + valorCompra
     return totalCompra
+
+def ioF(saldo, aliquota):
+    ioF = (saldo * (aliquota/100)) + saldo
+    return ioF
