@@ -26,6 +26,7 @@ def ioF(saldo, aliquota):
     ioF = (saldo * (aliquota/100)) + saldo
     return ioF
 
+<<<<<<< HEAD
 def impostoIpva(valorCarro, aliquota):
     impostoIpva = valorCarro * aliquota
     return impostoIpva
@@ -33,3 +34,9 @@ def impostoIpva(valorCarro, aliquota):
 def descontoIpvaParcelaUnica(impostoIpva, aliquotaDesconto):
     descontoIpva = impostoIpva * aliquotaDesconto
     return descontoIpva
+=======
+
+def impostoDeRenda(baseCalculo, aliquota):
+    impostoRenda = baseCalculo * aliquota
+    return impostoRenda
+>>>>>>> e58bc45 (Adding a function to calculate imposto de renda)
