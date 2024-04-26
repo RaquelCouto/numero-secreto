@@ -10,3 +10,15 @@ def deducaoImposto(salario):
     
 def quadradoNumero(numero):
     return numero*numero
+
+def impostoShein(valorCompra):
+    imposto = 0
+    if (valorCompra > 200):
+        imposto = valorCompra*(10/100)
+    else:
+        imposto = 0
+    return imposto
+
+def compraShein(valorCompra):
+    totalCompra = impostoShein(valorCompra) + valorCompra
+    return totalCompra
