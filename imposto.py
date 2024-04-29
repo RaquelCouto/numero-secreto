@@ -44,3 +44,6 @@ def descontoIpvaParcelaUnica(impostoIpva, aliquotaDesconto):
 
 def qualquerfuncao():
     return 1
+
+def qualquerfuncao2():
+    return 2
