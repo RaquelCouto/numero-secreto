@@ -41,3 +41,6 @@ def impostoIpva(valorCarro, aliquota):
 def descontoIpvaParcelaUnica(impostoIpva, aliquotaDesconto):
     descontoIpva = impostoIpva * aliquotaDesconto
     return descontoIpva
+
+def qualquerfuncao():
+    return 1
